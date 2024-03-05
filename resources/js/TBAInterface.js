@@ -5,7 +5,7 @@ var authKey = "pMGAY4j5g8ez0zbiVZd6ZVsaQ6ZB9Sa7dsTfT3AZkAQl1GWfk9hwkCvMy7tSJPzC"
 /**
  * Get list of teams in event
  *
- * @param {eventCode} eventCode the event code (i.e. 2020caln) to pull the team list
+ * @param {2024MNDU2} eventCode the event code (i.e. 2020caln) to pull the team list
  */
 function getTeams(eventCode) {
 	if (authKey) {
