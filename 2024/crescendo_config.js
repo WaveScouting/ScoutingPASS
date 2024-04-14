@@ -91,6 +91,10 @@ var config_data = `
       "code": "tta",
       "type": "counter"
     },
+    { "name": "Notes Fed",
+      "code": "tss",
+      "type": "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -148,10 +152,30 @@ var config_data = `
         "e": "Excellent<br>",
         "x": "Did not play defense"
       },
+       { "name": "Feeder Accuracy",
+      "code": "fa",
+      "type": "radio",
+      "choices": {
+        "b": "Below Average<br>",
+        "a": "Average<br>",
+        "g": "Good<br>",
+        "e": "Excellent<br>",
+        "x": "Did not feed notes"
+      },
       "defaultValue": "x"
     },
     { "name": "Speed Rating",
       "code": "sr",
+      "type": "radio",
+      "choices": {
+        "1": "1 (slow)<br>",
+        "2": "2<br>",
+        "3": "3<br>",
+        "4": "4<br>",
+        "5": "5 (fast)"
+      },
+       { "name": "Aim Speed Rating (Speaker AND Amp)",
+      "code": "as",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
