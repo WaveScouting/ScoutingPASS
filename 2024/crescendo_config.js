@@ -116,8 +116,11 @@ var config_data = `
         "2": "2<br>",
         "3": "3<br>",
         "4": "4<br>",
-        "5": "5 (fast)"
+        "5": "5 (fast)<br>",
+        "x": "Not attempted"
       },
+      "defaultValue": "x"
+    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
