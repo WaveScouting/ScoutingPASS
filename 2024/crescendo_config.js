@@ -161,6 +161,8 @@ var config_data = `
         "e": "Excellent<br>",
         "x": "Did not play defense"
       },
+      "defaultValue": "x"
+    },
        { "name": "Feeder Accuracy",
       "code": "fa",
       "type": "radio",
@@ -183,6 +185,8 @@ var config_data = `
         "4": "4<br>",
         "5": "5 (fast)"
       },
+      "defaultValue": "3"
+    },
        { "name": "Aim Speed Rating (Speaker AND Amp)",
       "code": "as",
       "type": "radio",
