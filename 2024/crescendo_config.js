@@ -92,7 +92,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Notes Fed",
-      "code": "tss",
+      "code": "tnf",
       "type": "counter"
     },
     { "name": "Pickup From",
@@ -188,7 +188,7 @@ var config_data = `
       "defaultValue": "3"
     },
        { "name": "Aim Speed Rating (Speaker AND Amp)",
-      "code": "as",
+      "code": "das",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
