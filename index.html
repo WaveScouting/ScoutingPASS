@@ -97,5 +97,10 @@
 				</div>
 			</div>
 		</form>
+		<script>
+        		if ('serviceWorker' in navigator) {
+          			navigator.serviceWorker.register('sw.js', { scope: '/ScoutingPASS/' });
+        		}
+    		</script>
 	</body>
 </html>
