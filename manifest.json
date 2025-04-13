@@ -3,14 +3,14 @@
     "name": "Wave ScoutingPASS",
     "short_name": "Wave ScoutingPASS",
     "description": "ScoutingPASS for Wave",
-    "start_url": "/BatteryTracking/",
-    "background_color": "#708090",
-    "theme_color": "#708090",
+    "start_url": "/ScoutingPASS/",
+    "background_color": "#000000",
+    "theme_color": "#000000",
     "orientation": "any",
     "display": "standalone",
     "icons": [
         {
-            "src": "/BatteryTracking/icon512.png",
+            "src": "/ScoutingPASS/icon512.png",
             "sizes": "512x512"
         }
     ]
